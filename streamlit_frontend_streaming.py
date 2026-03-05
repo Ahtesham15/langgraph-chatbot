@@ -6,7 +6,7 @@ CONFIG={'configurable':{'thread_id':'thread-1'}}
 
 user_input= st.chat_input('type here')
 
-message_history=[]
+
 if 'message_history' not in st.session_state:
     st.session_state['message_history']=[]
 
